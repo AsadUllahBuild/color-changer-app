@@ -11,20 +11,20 @@
     color: blueviolet;
 }
 
-#color{
+/* #colors{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     list-style-type: none;
-}
+} */
 
-/* ul{
+ul{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     list-style-type: none;
-} */
+}
 
 button{
     padding: 10px;

@@ -1,12 +1,13 @@
 const display = document.getElementById('main'); 
 const color = ["blue", "Red", "black", "orange", "yellow"];
 const body = document.querySelector('body'); 
+const data = document.getElementById("colors")
 
-display.innerHTML += `<li> <button onClick="blue()" class="blue">${color.slice(0, 1)}</button> </li>`;
-display.innerHTML += `<li> <button onClick="red()" class="red">${color.slice(1, 2)}</button> </li>`;
-display.innerHTML += `<li> <button onClick="black()" class="black">${color.slice(2, 3)}</button> </li>`;
-display.innerHTML += `<li> <button onClick="orange()" class="orange">${color.slice(3, 4)}</button> </li>`;
-display.innerHTML += `<li> <button onClick="yellow()" class="yellow">${color.slice(4, 5)}</button> </li>`;
+data.innerHTML += `<li> <button onClick="blue()" class="blue">${color.slice(0, 1)}</button> </li>`;
+data.innerHTML += `<li> <button onClick="red()" class="red">${color.slice(1, 2)}</button> </li>`;
+data.innerHTML += `<li> <button onClick="black()" class="black">${color.slice(2, 3)}</button> </li>`;
+data.innerHTML += `<li> <button onClick="orange()" class="orange">${color.slice(3, 4)}</button> </li>`;
+data.innerHTML += `<li> <button onClick="yellow()" class="yellow">${color.slice(4, 5)}</button> </li>`;
 
 
 function blue(){
